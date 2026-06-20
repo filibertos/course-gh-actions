@@ -21,7 +21,8 @@ jobs:
       - run: go version
       - run: |
           ls
+          cd upper
           go build
           ls
           go test
-          ./upper foo the bar
+          ./upper foo the bar bar

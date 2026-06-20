@@ -3,7 +3,7 @@ name: api-build
 on:
   push:
     paths:
-      - ".github/workflows/api-nuild.yaml"
+      - ".github/workflows/api-build.yaml"
       - "api/**"
   workflow_dispatch:
 

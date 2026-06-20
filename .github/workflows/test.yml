@@ -2,6 +2,8 @@ name: test
 
 on:
   push:
+    paths:
+      - ".github/workflows/test.yaml"
   workflow_dispatch:
 
 jobs:

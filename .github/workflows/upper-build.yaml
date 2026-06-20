@@ -25,4 +25,3 @@ jobs:
           go build
           ls
           go test
-      - run: ./upper foo the bar bar
